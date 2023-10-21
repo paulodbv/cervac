@@ -1,16 +1,15 @@
-# Cervac
-projeto da disciplina de pw
+# Website CERVAC
+projeto da disciplina de pw, professor Cloves Rocha
+2MD
 participantes:
 
 # HTML
 
-- Maria Karolina
-- Aline Arantes
-- Cayo Fagundes
-- Ury Serpa
-- José Fernando
-- Emerson Wallace
-- Sofia Lorena
+- Maria Karolina // html, css
+- Aline Arantes // html, css
+- Cayo Fagundes // html
+- Emerson Wallace // html, css
+- Sofia Lorena // css, javascript
 ‌
 
 # FIGMA
