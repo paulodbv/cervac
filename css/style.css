@@ -1,7 +1,7 @@
 
 
 .frame {
-    background-color: transparent;
+    background-color: #12121205;  
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -30,7 +30,7 @@
     background-color: #fefaefe6;
     overflow: hidden;
     box-shadow: 6px 4px 4px #00000040;
-    overflow-y: scroll;
+    overflow-y: hidden;
   }
   
   .frame .overlap-group {
@@ -48,7 +48,7 @@
     height: 29px;
     top: 37px;
     left: 568px;
-    font-family: "Outfit-Medium", Helvetica;
+    font-family: 'Gabarito', sans-serif;
     font-weight: 500;
     color: #000000;
     font-size: 23px;
@@ -62,7 +62,7 @@
     height: 29px;
     top: 36px;
     left: 768px;
-    font-family: "Outfit-Medium", Helvetica;
+    font-family: 'Gabarito', sans-serif;
     font-weight: 500;
     color: #000000;
     font-size: 23px;
@@ -76,7 +76,7 @@
     height: 29px;
     top: 37px;
     left: 386px;
-    font-family: "Outfit-Medium", Helvetica;
+    font-family: 'Gabarito', sans-serif;
     font-weight: 500;
     color: #000000;
     font-size: 23px;
@@ -90,7 +90,7 @@
     height: 29px;
     top: 35px;
     left: 932px;
-    font-family: "Outfit-Medium", Helvetica;
+    font-family: 'Gabarito', sans-serif;
     font-weight: 500;
     color: #000000;
     font-size: 23px;
@@ -111,7 +111,7 @@
     height: 43px;
     top: 36px;
     left: 175px;
-    font-family: "Slackey-Regular", Helvetica;
+    font-family: "Gabarito", Helvetica;
     font-weight: 400;
     color: #48ac38;
     font-size: 30px;
@@ -179,7 +179,7 @@
     height: 44px;
     top: 736px;
     left: 479px;
-    font-family: "Outfit-SemiBold", Helvetica;
+    font-family: "Young Serif", Helvetica;
     font-weight: 600;
     color: #234d20;
     font-size: 35px;
@@ -194,7 +194,7 @@
     height: 207px;
     top: 758px;
     left: 479px;
-    font-family: "Outfit-Medium", Helvetica;
+    font-family: 'Gabarito', sans-serif;
     font-weight: 500;
     color: #000000;
     font-size: 23px;
@@ -219,7 +219,7 @@
     height: 88px;
     top: 1113px;
     left: 476px;
-    font-family: "Outfit-SemiBold", Helvetica;
+    font-family: 'Young Serif', serif;
     font-weight: 600;
     color: #234d20;
     font-size: 35px;
@@ -232,7 +232,7 @@
     height: 29px;
     top: 1212px;
     left: 479px;
-    font-family: "Outfit-Medium", Helvetica;
+    font-family: 'Gabarito', sans-serif;
     font-weight: 500;
     color: #000000;
     font-size: 23px;
@@ -301,14 +301,14 @@
     position: absolute;
     width: 165px;
     height: 55px;
-    top: 314px;
-    left: 9px;
-    font-family: "Outfit-SemiBold", Helvetica;
+    top: 330px;
+    left: 7px;
+    font-family: 'Gabarito', sans-serif;
     font-weight: 600;
     color: var(--color-palettegreen-50);
-    font-size: 60px;
+    font-size: 30px;
     text-align: center;
-    letter-spacing: -2.7px;
+    letter-spacing: -2.3px;
     line-height: normal;
     white-space: nowrap;
   }
@@ -328,12 +328,12 @@
     position: absolute;
     width: 192px;
     height: 21px;
-    top: 392px;
+    top: 380px;
     left: 5px;
-    font-family: "Outfit-SemiBold", Helvetica;
+    font-family: 'Gabarito', sans-serif;
     font-weight: 600;
-    color: #ffffff;
-    font-size: 30px;
+    color: rgb(59, 55, 55);
+    font-size: 23px;
     text-align: center;
     letter-spacing: -1.95px;
     line-height: normal;
@@ -346,6 +346,8 @@
     height: 182px;
     top: 1212px;
     left: 781px;
+    font-size: 24px;
+    text-align: center;
   }
   
   .frame .overlap-group-2 {
@@ -376,12 +378,12 @@
   .frame .text-wrapper-9 {
     width: 157px;
     height: 65px;
-    top: 53px;
-    left: 26px;
-    font-family: "Outfit-SemiBold", Helvetica;
+    top: 110px;
+    left: 23px;
+    font-family: 'Gabarito', sans-serif;
     font-weight: 600;
     color: var(--color-palettegreen-50);
-    font-size: 60px;
+    font-size: 25px;
     letter-spacing: -2.7px;
     white-space: nowrap;
     position: absolute;
@@ -393,12 +395,12 @@
     position: absolute;
     width: 210px;
     height: 32px;
-    top: 117px;
+    top: 132px;
     left: 0;
-    font-family: "Outfit-SemiBold", Helvetica;
+    font-family: 'Gabarito', sans-serif;
     font-weight: 600;
-    color: #ffffff;
-    font-size: 30px;
+    color: rgb(59, 55, 55);
+    font-size: 23px;
     text-align: center;
     letter-spacing: -0.75px;
     line-height: normal;
@@ -443,12 +445,12 @@
   .frame .text-wrapper-11 {
     width: 109px;
     height: 81px;
-    top: 0;
+    top: 72px;
     left: 27px;
-    font-family: "Outfit-SemiBold", Helvetica;
+    font-family: 'Gabarito', sans-serif;
     font-weight: 600;
     color: var(--color-palettegreen-50);
-    font-size: 60px;
+    font-size: 30px;
     letter-spacing: -2.7px;
     position: absolute;
     text-align: center;
@@ -459,12 +461,12 @@
     position: absolute;
     width: 188px;
     height: 62px;
-    top: 73px;
+    top: 100px;
     left: 0;
-    font-family: "Outfit-SemiBold", Helvetica;
+    font-family: 'Gabarito', sans-serif;
     font-weight: 600;
-    color: #ffffff;
-    font-size: 30px;
+    color: rgb(59, 55, 55);
+    font-size: 20px;
     text-align: center;
     letter-spacing: -0.6px;
     line-height: 28.5px;
@@ -504,12 +506,12 @@
     position: absolute;
     width: 185px;
     height: 62px;
-    top: 91px;
+    top: 120px;
     left: 0;
-    font-family: "Outfit-SemiBold", Helvetica;
+    font-family: 'Gabarito', sans-serif;
     font-weight: 600;
-    color: #ffffff;
-    font-size: 30px;
+    color: rgb(59, 55, 55);
+    font-size: 20px;
     text-align: center;
     letter-spacing: -0.6px;
     line-height: 27.9px;
@@ -519,14 +521,14 @@
     position: absolute;
     width: 73px;
     height: 81px;
-    top: 24px;
+    top: 100px;
     left: 56px;
-    font-family: "Outfit-SemiBold", Helvetica;
+    font-family: 'Gabarito', sans-serif;
     font-weight: 600;
     color: var(--color-palettegreen-50);
-    font-size: 60px;
+    font-size: 24px;
     text-align: center;
-    letter-spacing: -2.7px;
+    letter-spacing: -1px;
     line-height: normal;
   }
   
@@ -592,9 +594,9 @@
     height: 64px;
     top: 1168px;
     left: 419px;
-    font-family: "Outfit-Medium", Helvetica;
+    font-family: "Gabarito", Helvetica;
     font-weight: 500;
-    color: #ffffffe6;
+    color: #524444;
     font-size: 25px;
     text-align: center;
     letter-spacing: -0.5px;
@@ -606,9 +608,9 @@
     height: 32px;
     top: 1168px;
     left: 81px;
-    font-family: "Outfit-Medium", Helvetica;
+    font-family: "Gabarito", Helvetica;
     font-weight: 500;
-    color: #ffffffe6;
+    color: #524444;
     font-size: 25px;
     text-align: center;
     letter-spacing: -0.5px;
@@ -621,9 +623,9 @@
     height: 59px;
     top: 1387px;
     left: 38px;
-    font-family: "Outfit-Medium", Helvetica;
+    font-family: "Gabarito", Helvetica;
     font-weight: 500;
-    color: #ffffffe6;
+    color: #524444;
     font-size: 25px;
     text-align: center;
     letter-spacing: -0.5px;
@@ -635,9 +637,9 @@
     height: 64px;
     top: 1385px;
     left: 424px;
-    font-family: "Outfit-Medium", Helvetica;
+    font-family: "Gabarito", Helvetica;
     font-weight: 500;
-    color: #ffffffe6;
+    color: #524444;
     font-size: 25px;
     text-align: center;
     letter-spacing: -0.5px;
@@ -646,12 +648,12 @@
   
   .frame .text-wrapper-19 {
     position: absolute;
-    width: 772px;
+    width: 550px;
     height: 127px;
     top: 2000px;
     left: 471px;
-    font-family: "Outfit-Bold", Helvetica;
-    font-weight: 700;
+    font-family: "Young Serif", Helvetica;
+    font-weight: 500;
     color: #234d20;
     font-size: 50px;
     text-align: right;
@@ -707,8 +709,8 @@
   .frame .text-wrapper-20 {
     height: 78px;
     top: 322px;
-    left: 268px;
-    font-family: "Slackey-Regular", Helvetica;
+    left: 275px;
+    font-family: "Young Serif", Helvetica;
     font-weight: 400;
     color: #48ac38;
     font-size: 55px;
@@ -759,7 +761,7 @@
     height: 58px;
     top: 16px;
     left: 292px;
-    font-family: "Outfit-Bold", Helvetica;
+    font-family: 'Young Serif', serif;
     font-weight: 700;
     color: #ffffff;
     font-size: 46px;
@@ -816,7 +818,7 @@
     top: 947px;
     left: 954px;
     opacity: 0.9;
-    font-family: "Outfit-Bold", Helvetica;
+    font-family: "Gabarito", Helvetica;
     font-weight: 700;
     color: #ffffff;
     font-size: 20px;
@@ -830,7 +832,7 @@
     height: 32px;
     top: 895px;
     left: 600px;
-    font-family: "Outfit-SemiBold", Helvetica;
+    font-family: "Young Serif", Helvetica;
     font-weight: 600;
     color: #ffffff;
     font-size: 25px;
@@ -845,7 +847,7 @@
     top: 952px;
     left: 587px;
     opacity: 0.9;
-    font-family: "Outfit-Bold", Helvetica;
+    font-family: "Gabarito", Helvetica;
     font-weight: 700;
     color: #ffffff;
     font-size: 20px;
@@ -876,7 +878,7 @@
     position: absolute;
     top: 898px;
     left: 144px;
-    font-family: "Inter-SemiBold", Helvetica;
+    font-family: "Young Serif", Helvetica;
     font-weight: 600;
     color: #ffffff;
     font-size: 25px;
@@ -892,7 +894,7 @@
     top: 945px;
     left: 136px;
     opacity: 0.9;
-    font-family: "Inter-Bold", Helvetica;
+    font-family: "Gabarito", Helvetica;
     font-weight: 700;
     color: #ffffff;
     font-size: 20px;
@@ -929,7 +931,7 @@
     height: 32px;
     top: 898px;
     left: 963px;
-    font-family: "Outfit-SemiBold", Helvetica;
+    font-family: "Young Serif", Helvetica;
     font-weight: 600;
     color: #ffffff;
     font-size: 25px;
@@ -943,7 +945,7 @@
     height: 32px;
     top: 1005px;
     left: 963px;
-    font-family: "Outfit-SemiBold", Helvetica;
+    font-family: "Young Serif", Helvetica;
     font-weight: 600;
     color: #ffffff;
     font-size: 25px;
@@ -958,7 +960,7 @@
     top: 1050px;
     left: 958px;
     opacity: 0.9;
-    font-family: "Outfit-SemiBold", Helvetica;
+    font-family: "Gabarito", Helvetica;
     font-weight: 600;
     color: #ffffff;
     font-size: 20px;
@@ -968,8 +970,8 @@
   }
   
   .frame .image-2 {
-    width: 267px;
-    height: 272px;
+    width: 300px;
+    height: 300px;
     top: 5221px;
     left: 101px;
     position: absolute;
@@ -979,9 +981,9 @@
   .frame .text-wrapper-28 {
     width: 386px;
     height: 64px;
-    top: 5274px;
+    top: 5239px;
     left: 586px;
-    font-family: "Outfit-Black", Helvetica;
+    font-family: "Gabarito", Helvetica;
     font-weight: 900;
     color: #234d20;
     font-size: 80px;
@@ -1003,36 +1005,40 @@
     position: absolute;
     width: 583px;
     height: 16px;
-    top: 0;
-    left: 0;
-    font-family: "Outfit-Black", Helvetica;
-    font-weight: 900;
+    top: -58px;
+    left: 5;
+   font-family: "Young Serif", Helvetica;
+    font-weight: 500;
     color: #234d20;
-    font-size: 50px;
+    font-size: 30px;
     letter-spacing: -1px;
     line-height: normal;
     white-space: nowrap;
+    bottom: 1px;
+    left: 77px
   }
   
   .frame .text-wrapper-30 {
     position: absolute;
     height: 63px;
-    top: 2px;
-    left: 0;
-    font-family: "Outfit-Black", Helvetica;
-    font-weight: 900;
+    top: -62px;
+    left: 5;
+    font-family: "Young Serif", Helvetica;
+    font-weight: 500;
     color: #234d20;
-    font-size: 50px;
+    font-size: 30px;
     letter-spacing: -1px;
     line-height: normal;
+    bottom: 1px;
+    left: 77px;
   }
   
   .frame .autism-cuate {
     position: absolute;
-    width: 422px;
+    width: 552px;
     height: 440px;
     top: 178px;
-    left: 784px;
+    left: 671px;
   }
   
   .frame .home-ttulo-ol-somos {
@@ -1041,6 +1047,7 @@
     height: 311px;
     top: 261px;
     left: 80px;
+    
   }
   
   .frame .ol-somos-o {
@@ -1049,7 +1056,7 @@
     height: 126px;
     top: 0;
     left: 0;
-    font-family: "Outfit-SemiBold", Helvetica;
+    font-family: "Gabarito", Helvetica;
     font-weight: 600;
     color: #234d20;
     font-size: 50px;
@@ -1063,7 +1070,7 @@
     height: 173px;
     top: 138px;
     left: 0;
-    font-family: "Outfit-SemiBold", Helvetica;
+    font-family: 'Gabarito', sans-serif;
     font-weight: 600;
     color: #524444;
     font-size: 25px;
@@ -1076,7 +1083,7 @@
     height: 95px;
     top: 1827px;
     left: 63px;
-    font-family: "Outfit-SemiBold", Helvetica;
+    font-family: "Young Serif", Helvetica;
     font-weight: 600;
     color: #000000;
     font-size: 75px;
@@ -1089,7 +1096,7 @@
     left: 902px;
     position: absolute;
     height: 63px;
-    font-family: "Outfit-SemiBold", Helvetica;
+    font-family: "Young Serif", Helvetica;
     font-weight: 600;
     color: #000000;
     font-size: 50px;
@@ -1102,7 +1109,7 @@
     left: 80px;
     position: absolute;
     height: 63px;
-    font-family: "Outfit-SemiBold", Helvetica;
+    font-family: "Young Serif", Helvetica;
     font-weight: 600;
     color: #000000;
     font-size: 50px;
@@ -1116,7 +1123,7 @@
     height: 416px;
     top: 879px;
     left: 784px;
-    font-family: "Outfit-SemiBold", Helvetica;
+    font-family: 'Gabarito', sans-serif;
     font-weight: 600;
     color: #524444;
     font-size: 20px;
@@ -1126,7 +1133,7 @@
   }
   
   .frame .span {
-    font-family: "Outfit-SemiBold", Helvetica;
+    font-family: 'Gabarito', sans-serif;
     font-weight: 600;
     color: #524444;
     font-size: 20px;
@@ -1144,7 +1151,7 @@
     height: 170px;
     top: 1461px;
     left: 80px;
-    font-family: "Outfit-SemiBold", Helvetica;
+    font-family: 'Gabarito', sans-serif;  
     font-weight: 600;
     color: #524444;
     font-size: 20px;
@@ -1173,7 +1180,7 @@
     width: 395px;
     top: 3421px;
     left: 832px;
-    font-family: "Outfit-Bold", Helvetica;
+    font-family: 'Gabarito', sans-serif;
     font-weight: 700;
     color: #524444;
     font-size: 25px;
@@ -1185,9 +1192,9 @@
   .frame .transfer-ncia-ou-dep {
     position: absolute;
     width: 312px;
-    top: 3810px;
+    top: 3790px;
     left: 343px;
-    font-family: "Outfit-Bold", Helvetica;
+    font-family: 'Gabarito', sans-serif;
     font-weight: 700;
     color: #ebebeb;
     font-size: 20px;
@@ -1199,9 +1206,9 @@
   .frame .chave-pix {
     position: absolute;
     width: 244px;
-    top: 3929px;
+    top: 3930px;
     left: 380px;
-    font-family: "Outfit-Bold", Helvetica;
+    font-family: 'Gabarito', sans-serif;
     font-weight: 700;
     color: #ffffff;
     font-size: 20px;
@@ -1209,3 +1216,9 @@
     letter-spacing: -0.9px;
     line-height: normal;
   }
+
+  * {
+    font-family: 'Gabarito', sans-serif;
+    font-family: 'Young Serif', serif; 
+    box-sizing: border-box;
+}
