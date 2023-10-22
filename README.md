@@ -7,7 +7,7 @@ participantes:
 
 - Aline Arantes // html, css
 - Cayo Fagundes // html, css
-- Emerson Wallace // html
+- Emerson Wallace // html, css
 - Maria Karolina // html, css
 - Sofia Lorena // css, javascript
 ‌
