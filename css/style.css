@@ -1221,4 +1221,15 @@
     font-family: 'Gabarito', sans-serif;
     font-family: 'Young Serif', serif; 
     box-sizing: border-box;
-}
+  }
+
+  gmp-map {
+    height: 100%;
+  }
+  
+  html,
+  body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
