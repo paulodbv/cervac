@@ -10,7 +10,7 @@ participantes:
 - Emerson Wallace // html, css
 - Maria Karolina // html, css
 - Sofia Lorena // css, javascript
-‌
+‌- José Fernando // css
 
 # FIGMA
 
