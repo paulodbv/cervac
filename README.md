@@ -9,7 +9,7 @@ participantes:
 - Cayo Fagundes // html, css
 - Emerson Wallace // html, css
 - Maria Karolina // html, css
-- Sofia Lorena // css, javascript
+- Sofia Lorena // css, javascript  
 ‌- José Fernando // css
 
 # FIGMA
