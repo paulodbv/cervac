@@ -1,0 +1,29 @@
+CREATE TABLE assistente (
+  id_assistente int PRIMARY KEY,
+  nome varchar(55) NOT NULL,
+  sobrenome varchar(55) NOT NULL,
+  profissao varchar(255)
+);
+
+CREATE TABLE cadastro_usuario (
+  id_usuario int PRIMARY KEY,
+  login varchar(20) NOT NULL,
+  senha int NOT NULL UNIQUE
+);
+
+CREATE TABLE tutor (
+  id_tutor int PRIMARY KEY,
+  nome varchar(55) NOT NULL,
+  sobrenome varchar(55) NOT NULL,
+  nome_crianca varchar(55) NOT NULL
+);
+
+CREATE TABLE consulta (
+  id_consulta int PRIMARY KEY,
+  data timestamp,
+  horario varchar(10),
+  id_assistente int NOT NULL,
+  nome_crianca varchar(255) NOT NULL
+   FOREIGN KEY (id_assistente) REFERENCES assistente(id_assistente),
+  FOREIGN KEY (nome_crianca) REFERENCES tutor(nome_crianca)
+);
