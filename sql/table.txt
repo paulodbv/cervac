@@ -27,3 +27,8 @@ CREATE TABLE consulta (
    FOREIGN KEY (id_assistente) REFERENCES assistente(id_assistente),
   FOREIGN KEY (nome_crianca) REFERENCES tutor(nome_crianca)
 );
+
+SELECT * FROM assistente;
+SELECT * FROM cadastro_usuariO;
+SELECT * FROM tutor;
+SELECT * FROM consulta;
